@@ -8,12 +8,12 @@ To use cython-vst-loader, you first need to install the package using pip:
 
 Once the package is installed, you can load a VST plugin using the following code:
 
-```python
-Copy code
+```
 from cython_vst_loader import VSTPlugin
 
 plugin = VSTPlugin("path/to/plugin.dll")
-plugin.open()```
+plugin.open()
+```
 
 This will load the VST plugin located at the specified path and open it for use. You can then use the **plugin** object to interact with the plugin and its parameters.
 
